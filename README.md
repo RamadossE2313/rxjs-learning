@@ -1,3 +1,10 @@
+
+## Subject vs BehaviourSubject <a href = "https://github.com/RamadossE2313/rxjs-learning/blob/main/src/app/app.component.ts">App component</a>
+1. Subject and BehaviorSubject are Observables
+2. When we create subject we don't required to initialize the value but when we create behaviour subject we have to initialize the value
+3. when we subscribe the subject we will receive only the upcoming values only but when we subscribe the behaviour subject we will current value and upcoming values
+4. article reference : https://dev.to/revanth_oleti/difference-between-subject-and-behaviorsubject-9g6
+   
 # RxjsLearning
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
@@ -26,8 +33,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Subject vs BehaviourSubject <a href = "https://github.com/RamadossE2313/rxjs-learning/blob/main/src/app/app.component.ts">App component</a>
-1. Subject and BehaviorSubject are Observables
-2. When we create subject we don't required to initialize the value but when we create behaviour subject we have to initialize the value
-3. when we subscribe the subject we will receive only the upcoming values only but when we subscribe the behaviour subject we will current value and upcoming values
-4. article reference : https://dev.to/revanth_oleti/difference-between-subject-and-behaviorsubject-9g6
+
